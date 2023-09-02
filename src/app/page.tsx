@@ -2,24 +2,14 @@ import Image from 'next/image';
 import chepcodes from 'public/chepcode.png';
 import VideoSection from './components/VideoSection'; // Import the VideoSection component
 import Footer from './components/Footer';
+import Header from './components/Header';
 
 export default function Home() {
   return (
     <div className="bg-gray-100">
-      <header className="bg-blue-500 p-4 text-white text-center">
-        <h1 className="text-3xl font-bold">chepCodes</h1>
-      </header>
+      <Header />
 
       <main className="max-w-4xl mx-auto p-4 flex flex-col items-center">
-        <div className="mb-6">
-          <Image 
-            src={chepcodes} 
-            alt="Channel Logo"
-            width={400} 
-            height={400}
-            className="rounded-full" 
-          />
-        </div>
 
         <h2 className="text-2xl text-pink-400 font-bold mt-4 mb-2">
           Greetings, I&apos;m Chep! I help people learn to Code by using Memes.
