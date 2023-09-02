@@ -22,7 +22,7 @@ export default function Home() {
         </div>
 
         <h2 className="text-2xl text-pink-400 font-bold mt-4 mb-2">
-          Greetings, I&apos;m Chep! Welcome to the World of Code and Memes.
+          Greetings, I&apos;m Chep! I help people learn to Code by using Memes.
         </h2>
 
         <p className="text-gray-700 leading-relaxed">
