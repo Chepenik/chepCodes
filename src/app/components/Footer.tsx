@@ -5,9 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faYoutube, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer() {
+  const current_year = new Date().getFullYear();
   return (
     <footer className="bg-blue-500 p-4 text-white text-center">
-      <p>&copy; 2023 ChepCodes</p>
+      <p>&copy; {current_year} ChepCodes</p>
 
       <div className="flex justify-center space-x-4">
         <a 

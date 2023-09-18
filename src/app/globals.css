@@ -4,26 +4,3 @@
 /* styles/globals.css */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
 
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 173, 216, 230; /* Light Blue */
-  --background-end-rgb: 144, 238, 144; /* Light Green */
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      rgb(var(--background-start-rgb)),
-      rgb(var(--background-end-rgb))
-    );
-}
